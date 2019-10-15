@@ -27,7 +27,7 @@ export default function Friends(props) {
         setFriendsList(res.data);
       })
       .catch(error => {
-          debugger
+       
         // props.history.push('/'); // could be improved
         alert(error.message);
       });
